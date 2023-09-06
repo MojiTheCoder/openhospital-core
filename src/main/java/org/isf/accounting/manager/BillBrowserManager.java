@@ -343,4 +343,14 @@ public class BillBrowserManager {
 	public List<Bill> getBills(LocalDateTime dateFrom, LocalDateTime dateTo,BillItems billItem) throws OHServiceException {
 		return ioOperations.getBillsBetweenDatesWhereBillItem(dateFrom, dateTo, billItem);
 	}
+
+		/**
+	 * A small method for testing the CI/CD pipeline.
+	 * This method simply returns a greeting message.
+	 *
+	 * @return a greeting message.
+	 */
+	public String getGreeting() {
+	    return "Hello, CI/CD testing is successful!";
+	}
 }
