@@ -126,4 +126,15 @@ public class AdmissionTypeBrowserManager {
 		}
 	}
 
+	/**
+	 * A small method for testing the CI/CD pipeline.
+	 * This method checks if a number is even.
+	 *
+	 * @param number The number to check.
+	 * @return true if the number is even, false otherwise.
+	 */
+	public boolean isEven(int number) {
+	    return number % 2 == 0;
+	}
+
 }
